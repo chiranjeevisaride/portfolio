@@ -1,0 +1,49 @@
+name: Portfolio
+description: Personal Portfolio Website.
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #UI
+  flutter_icons:
+  cupertino_icons:
+  percent_indicator:
+  # flutter_page_indicators:
+  smooth_page_indicator:
+
+  #S\e
+  provider:
+  easy_web_view:
+  #common
+  velocity_x: 
+  intl:
+  google_fonts:
+  hive:
+  dio:
+  logger:
+  string_validator:
+  hive_flutter:
+    git:
+      url: git://github.com/Mravuri96/hive.git #Enables macos Support
+      path: hive_flutter
+
+  flutter_staggered_animations:
+  url_launcher:
+  #ads
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic:
+  effective_dart:
+
+dependency_overrides:
+  dartx:
+  path:
+
+flutter:
+  assets:
+    - assets/images/Profiles.png
+    - assets/images/svg.png
+  uses-material-design: true
